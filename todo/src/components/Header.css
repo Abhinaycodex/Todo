@@ -1,0 +1,17 @@
+nav {
+    background-color: rgb(57, 57, 192);
+    color: rgb(207, 232, 254);
+    border: 5px solid purple;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100;
+    height:100;
+    display: flex;
+    justify-content: space-around; 
+    align-items:center;
+    text-decoration:solid;
+
+}
+

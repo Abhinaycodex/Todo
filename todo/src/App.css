@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+
+.container{
+    background-color: rgb(152, 80, 69);
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+    padding: 4vmax;
+    box-sizing: border-box;
+
+}
+
+.container >form{
+    margin: 10px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container >h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 3em;
+}
+
+input, textarea, button{
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px ;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: black;
+
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(186, 170, 170);
+    align-items: center;
+}
+
+
+.task > div{
+    margin: 10px;
+    padding:20px;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.579);
+}
+
+.task  p{
+    width: 80%;
+    color: rgb(26, 108, 167);
+}
+
+.task  button{
+    border-radius: 100%;
+    font-size: 1.8em;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task button:hover{
+    background-color: crimson;
+    transition:ease-out;
+    color: white;
+
+}
