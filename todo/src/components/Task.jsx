@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Task({ Title , description}) {
+function Task({ Title , description ,deleteTask,index}) {
   return (
     <div className='task'> 
 
@@ -13,7 +13,7 @@ function Task({ Title , description}) {
     </div>
 
     <div >
-    <button >
+    <button onClick={()=>{ deleteTask(index)} }   >
         -
     </button>
     </div>
